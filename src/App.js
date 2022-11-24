@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import MasonryLayout from "./components/MasonryLayout";
+// import Notes from "./components/Notes";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <MasonryLayout columns={2} gap={25} />
     </div>
   );
 }
